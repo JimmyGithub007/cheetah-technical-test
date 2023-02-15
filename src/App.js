@@ -52,7 +52,7 @@ function App() {
   return (<div className="bg-gray-100 min-h-screen sm:px-8">
     <div className="flex items-center justify-between p-4 text-gray-700">
       <span className="font-bold text-md sm:text-xl">Cheetah Digital Home Assessment</span>
-      <AiFillGithub className="duration-300 text-2xl hover: cursor-pointer hover:text-gray-900" />
+      <a className="duration-300 text-2xl hover: cursor-pointer hover:text-gray-900" href={process.env.REACT_APP_GITHUB_URL}><AiFillGithub /></a>
     </div>
     <div className="bg-white border-2 border-gray-100 p-4 rounded-lg shadow-md">
       <DataGrid columns={columns} data={data} pagination={true} />
