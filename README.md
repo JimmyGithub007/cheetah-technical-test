@@ -2,7 +2,12 @@
 
 cheetah digital take home assessment, built with React, TailwindCSS, hosting on Netlify.
 
+### Done on requirement(s)
+1. Using ReactJS
+2. The output should be printed to the console.
+
 ### 💻 Live [Demo](https://cheetah-technical-test.netlify.app/)
+Result printed to the console, also showing on UI.
 
 ## Installation and Setup Instructions
 
